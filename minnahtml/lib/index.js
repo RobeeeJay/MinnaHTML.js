@@ -1,0 +1,1 @@
+exports.mh = require('./minnahtml');

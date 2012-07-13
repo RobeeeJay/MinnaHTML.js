@@ -1,0 +1,21 @@
+{
+	"name" : "minnahtml",
+	"main" : "./lib/index.js"
+	"version": "0.1",
+	"description": "An async aware HTML object library primarily aimed at Node.js users",
+	"keywords": [
+		"framework",
+		"web",
+		"html",
+		"OOP"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/RobeeeJay/MinnaHTML.js.git"
+	},
+	"author": {
+		"name": "TJ Holowaychuk",
+		"email": "robert@reviewer.co.uk",
+		"url": "http://www.robertsworld.org.uk"
+	},
+}
