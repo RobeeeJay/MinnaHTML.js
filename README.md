@@ -116,9 +116,9 @@ One little thing to note, you can reference objects by their ID, and any propert
 	objDiv.cat.data.content = "I'm not a dog!";
 	
 	<div class="notacat" onclick="alert('Woof')">
-		<div>
+		<p>
 			I'm not a dog!
-		</div>
+		</p>
 	</div>
 
 

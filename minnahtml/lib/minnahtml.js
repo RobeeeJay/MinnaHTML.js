@@ -217,7 +217,7 @@ Base.prototype.replaceContent = function(string)
 Base.prototype.addVars = function(vars)
 {
 	for (key in vars)
-		this[key] = vars[key];
+		this.addToVar(key, vars[key]);
 }
 
 // Adds to a string var of this HTML object if it exists, or creates it if not
@@ -1268,6 +1268,24 @@ function Span(parent, cid, vars, blankId)
 copyPrototype(Span, Base);
 
 
+// -------------------------------------------------------------------------------------------------
+// <canvas> class
+// -------------------------------------------------------------------------------------------------
+
+// Canvas constructor
+function Canvas(parent, cid, vars, blankId)
+{
+	this.width = 640;
+	this.height = 480;
+	
+	this.Base(parent, "canvas", cid, vars, blankId);
+	
+	this.data.content = this.data.content || "Your browser does not appear to support HTML5 :(";
+}
+
+// Inherit from base HTML object
+copyPrototype(Canvas, Base);
+
 
 // Now to export this mammoth class list
 exports.Data = Data;
@@ -1311,3 +1329,4 @@ exports.Option = Option;
 exports.PlaceHolder = PlaceHolder;
 exports.BlockQuote = BlockQuote;
 exports.Span = Span;
+exports.Canvas = Canvas;

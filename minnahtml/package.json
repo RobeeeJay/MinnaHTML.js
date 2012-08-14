@@ -1,21 +1,28 @@
 {
-	"name" : "minnahtml",
-	"main" : "./lib/index.js"
-	"version": "0.1",
-	"description": "An async aware HTML object library primarily aimed at Node.js users",
-	"keywords": [
-		"framework",
-		"web",
-		"html",
-		"OOP"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/RobeeeJay/MinnaHTML.js.git"
-	},
-	"author": {
-		"name": "TJ Holowaychuk",
-		"email": "robert@reviewer.co.uk",
-		"url": "http://www.robertsworld.org.uk"
-	},
+  "name": "minnahtml",
+  "version": "0.3.0",
+  "author": "Robee Shepherd <rob@robertsworld.org.uk>",
+  "description": "An async aware HTML object library primarily aimed at Node.js users",
+  "contributors": [ 
+    {
+      "name": "Robee Shepherd",
+      "email": "rob@robertsworld.org.uk"
+    } 
+  ],
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobeeeJay/MinnaHTML.js.git"
+  },
+  "keywords": [
+    "html",
+    "oop",
+    "xml",
+    "www",
+    "framework"
+  ],
+  "license": "GPL",
+  "engine": {
+    "node": ">=0.4"
+  }
 }
