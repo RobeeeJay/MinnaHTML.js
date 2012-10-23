@@ -1,6 +1,6 @@
 {
   "name": "minnahtml",
-  "version": "0.3.0",
+  "version": "0.3.3",
   "author": "Robee Shepherd <rob@robertsworld.org.uk>",
   "description": "An async aware HTML object library primarily aimed at Node.js users",
   "contributors": [ 
