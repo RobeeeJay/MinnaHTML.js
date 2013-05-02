@@ -1,13 +1,16 @@
 {
   "name": "minnahtml",
-  "version": "0.3.3",
-  "author": "Robee Shepherd <rob@robertsworld.org.uk>",
+  "version": "0.3.5",
+   "author": {
+    "name": "Robee Shepherd",
+    "email": "robee_git@robeesworld.com"
+  },
   "description": "An async aware HTML object library primarily aimed at Node.js users",
-  "contributors": [ 
+  "contributors": [
     {
       "name": "Robee Shepherd",
-      "email": "rob@robertsworld.org.uk"
-    } 
+      "email": "robee_git@robeesworld.com"
+    }
   ],
   "main": "./lib/index.js",
   "repository": {
