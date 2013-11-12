@@ -185,6 +185,19 @@ Create a load of DIV objects, add them to your body, them not ready, make a load
 
 
 
+Using with Angular.js?
+============
+
+Just in case you want to add attributes without values to HTML, for things like Angular.js where you need to add ng-app and similar attributes, you can do that too, just set the attribute to true.
+
+	new mh.Div(null, "my-angular-app", { "ng-app": true });
+	
+This produces the following HTML:
+
+	<div id="my-angular-app" ng-app></div>
+
+
+
 There Is More
 =============
 
